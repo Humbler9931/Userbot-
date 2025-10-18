@@ -17,7 +17,6 @@ import re
 import asyncio
 import logging
 from datetime import datetime, timedelta
-from telethon import TelegramClient, events, types
 from telethon.sessions import StringSession
 from telethon.errors import FloodWaitError, UserNotMutualContactError
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
