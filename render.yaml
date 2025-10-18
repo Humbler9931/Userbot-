@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: advanced-userbot
+    env: python
+    plan: free
+    region: oregon
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python userbot.py"
+    envVars:
+      - key: API_ID
+        value: "YOUR_API_ID"
+      - key: API_HASH
+        value: "YOUR_API_HASH"
+      - key: STRING_SESSION
+        value: "YOUR_STRING_SESSION"
+      - key: MASTER_ID
+        value: "YOUR_TELEGRAM_ID"
