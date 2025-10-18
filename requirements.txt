@@ -1,3 +1,66 @@
-telethon==1.29.0
-python-dotenv==1.0.0
+# Core Telegram Library
+telethon==1.36.0
+cryptg==0.4.0
+
+# Async Support
 aiofiles==23.2.1
+aiohttp==3.9.5
+
+# Scheduling
+APScheduler==3.10.4
+
+# Environment Variables
+python-dotenv==1.0.1
+
+# Image Processing
+Pillow==10.4.0
+
+# Database
+aiosqlite==0.20.0
+
+# Optional: AI Features (uncomment if using)
+# openai==1.35.0
+# anthropic==0.31.0
+
+# Optional: Advanced Text Processing
+# nltk==3.8.1
+# textblob==0.18.0
+
+# Optional: Web Scraping (if needed)
+# beautifulsoup4==4.12.3
+# lxml==5.2.2
+
+# Optional: Data Processing
+# pandas==2.2.2
+# numpy==1.26.4
+
+# Utilities
+python-dateutil==2.9.0
+pytz==2024.1
+requests==2.32.3
+
+# Logging and Monitoring
+colorlog==6.8.2
+
+# Security
+pycryptodome==3.20.0
+
+# Optional: Voice/Audio Processing
+# pydub==0.25.1
+# SpeechRecognition==3.10.4
+
+# Optional: PDF Processing
+# PyPDF2==3.0.1
+# pdfplumber==0.11.0
+
+# Optional: Excel Support
+# openpyxl==3.1.5
+# xlrd==2.0.1
+
+# Optional: Redis for caching (if scaling)
+# redis==5.0.7
+# aioredis==2.0.1
+
+# Testing (development only)
+# pytest==8.2.2
+# pytest-asyncio==0.23.7
